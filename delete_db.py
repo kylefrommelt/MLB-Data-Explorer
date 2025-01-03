@@ -1,5 +1,5 @@
 from sqlalchemy_utils import database_exists, drop_database, create_database
-from app.database import engine
+from database import engine
 from app import models
 import logging
 

@@ -1,5 +1,5 @@
-from app.database import engine, Base
-from app.models import Player, BattingStats, PitchingStats
+from database import engine, Base
+from models import Player, BattingStats, PitchingStats
 import logging
 
 logging.basicConfig(
