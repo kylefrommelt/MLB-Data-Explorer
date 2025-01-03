@@ -1,6 +1,6 @@
 from shiny import App, ui, render
-from .data_handler import MLBDataHandler
-from .viz_handler import MLBVizHandler
+from data_handler import MLBDataHandler
+from viz_handler import MLBVizHandler
 import plotly.express as px
 from plotly.io import to_html
 
